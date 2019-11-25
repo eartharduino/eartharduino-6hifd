@@ -37,9 +37,5 @@ void loop()
   lcd.print("Temperature:"); //LCD顯示" "內的文字
   lcd.setCursor(0,0);        // 設定游標位置在第二行第一個字
   lcd.print(dhtT);               //LCD顯示x的內容
-  lcd.setCursor(2, 0);        // 設定游標位置在第一行第一個字
-  lcd.print("Humidity:"); //LCD顯示" "內的文字
-  lcd.setCursor(3, 1);        // 設定游標位置在第二行第一個字
-  lcd.print(dhtH);               //LCD顯示x的內容
-
+ 
 }
